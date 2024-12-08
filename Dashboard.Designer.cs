@@ -73,6 +73,9 @@
             label14 = new Label();
             label15 = new Label();
             label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
+            label20 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -267,6 +270,7 @@
             // 
             guna2GradientPanel1.BackColor = Color.DarkBlue;
             guna2GradientPanel1.BorderRadius = 15;
+            guna2GradientPanel1.Controls.Add(label18);
             guna2GradientPanel1.Controls.Add(label9);
             guna2GradientPanel1.Controls.Add(pictureBox2);
             guna2GradientPanel1.CustomizableEdges = customizableEdges3;
@@ -303,6 +307,7 @@
             // 
             guna2GradientPanel3.BackColor = Color.FromArgb(252, 143, 84);
             guna2GradientPanel3.BorderRadius = 15;
+            guna2GradientPanel3.Controls.Add(label19);
             guna2GradientPanel3.Controls.Add(label10);
             guna2GradientPanel3.Controls.Add(pictureBox3);
             guna2GradientPanel3.CustomizableEdges = customizableEdges5;
@@ -326,9 +331,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(0, 0);
+            pictureBox3.Location = new Point(54, 0);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(280, 133);
+            pictureBox3.Size = new Size(226, 127);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 61;
             pictureBox3.TabStop = false;
@@ -337,6 +342,7 @@
             // 
             guna2GradientPanel2.BackColor = Color.FromArgb(6, 208, 1);
             guna2GradientPanel2.BorderRadius = 15;
+            guna2GradientPanel2.Controls.Add(label20);
             guna2GradientPanel2.Controls.Add(label11);
             guna2GradientPanel2.Controls.Add(pictureBox4);
             guna2GradientPanel2.CustomizableEdges = customizableEdges7;
@@ -478,6 +484,39 @@
             label17.TabIndex = 71;
             label17.Text = "Ab-";
             // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label18.ForeColor = Color.White;
+            label18.Location = new Point(23, 66);
+            label18.Name = "label18";
+            label18.Size = new Size(98, 37);
+            label18.TabIndex = 61;
+            label18.Text = "Donor";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label19.ForeColor = Color.White;
+            label19.Location = new Point(22, 66);
+            label19.Name = "label19";
+            label19.Size = new Size(121, 37);
+            label19.TabIndex = 64;
+            label19.Text = "Transfer";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label20.ForeColor = Color.White;
+            label20.Location = new Point(23, 67);
+            label20.Name = "label20";
+            label20.Size = new Size(75, 37);
+            label20.TabIndex = 61;
+            label20.Text = "User";
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -556,5 +595,8 @@
         private Label label14;
         private Label label15;
         private Label label17;
+        private Label label18;
+        private Label label19;
+        private Label label20;
     }
 }
